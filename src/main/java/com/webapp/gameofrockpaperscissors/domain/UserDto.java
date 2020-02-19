@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 public class UserDto {
     private Long id;
     private String userNick;
-    private Integer numberOfPoints;
+    private Integer userPoints;
     private String date;
 }

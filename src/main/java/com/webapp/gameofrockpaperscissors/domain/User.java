@@ -18,8 +18,8 @@ public class User {
     @Column(name = "user_nick")
     private String userNick;
 
-    @Column(name = "number_of_points")
-    private Integer numberOfPoints;
+    @Column(name = "user_points")
+    private Integer userPoints;
 
     @Column
     private String date;
